@@ -21,7 +21,8 @@ tokens = word_tokenize(page2)
 stop_words = stopwords.words('english')
 keywords = [word for word in tokens if word not in stop_words and word not in punctuations]
 
-print(keywords)"""
+print(keywords)
+"""
 
 
 #Implementing a more advanced library, Pymupdf
